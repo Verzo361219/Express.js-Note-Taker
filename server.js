@@ -12,5 +12,5 @@ app.use('/api', notes)
 app.use('/', html)
 
 app.listen(PORT, function() {
-    console.log("App listening")
+    console.log(`App listening at http://localhost:${PORT}`)
 })

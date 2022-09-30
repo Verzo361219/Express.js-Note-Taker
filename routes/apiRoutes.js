@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { readAndAppend, readFromFile, writeToFile } = require('../helpers/fsUtils')
+const { readAndAppend, readFromFile, writeToFile } = require('../helpers/Utils')
 const { v4: uuidv4 } = require('uuid');
 
 // GET route for all the notes in the DB.json file.
