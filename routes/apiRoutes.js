@@ -38,7 +38,7 @@ router.delete('/notes/:id', (req, res) => {
       writeToFile('./db/db.json', result);
 
       // Respond to the DELETE request
-      res.json(`Note ${noteId} has been deleted`);
+      res.json(`Note ${noteId} has been deleted 🗑️`);
     });
 });
 
@@ -64,4 +64,3 @@ router.post('/notes', (req, res) => {
 });
 
 module.exports = router;
-   
